@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/Stage2025/MammaMao
+RUN git clone https://github.com/Stage2025/MammaMao .
 
 # Copy the local config.json file to the container
 
